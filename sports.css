@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-size:1em;  
+}
+p{
+    font-size: 4em;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column; 
+    text-align:center;
+    background-size: 100%;
+    background-color:red; /* Adjust the opacity to make the image slightly darker */
+}
+#option1,#option2,#option3,#option4,#option11,#option22,#option33,#option44,#option111,#option222,#option333,#option444,
+#option1111,#option2222,#option3333,#option4444,#option11111,#option22222,#option33333,#option44444{
+    width: 30px;
+    height: 30px;
+}
+.block1   {
+    font-size: 2.5em;
+}
+.option {
+    margin: 5px 0;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+.output {
+    margin-top: 20px;
+    font-size: 5em;
+    font-weight: bold;
+}
+button{
+    height:4em;
+    width:6em;
+    font-size:1.5em;
+    border-radius: 30%;
+    background-color:495057;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        background-color:#495057;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    #container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-image: url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(7, 7, 7);
+        position: relative;
+    }
+    .block1   {
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 2em;
+    }
+    button{
+        font-size: 1em;
+        background-color: #dee2e6;
+    }
+}
